@@ -1,0 +1,223 @@
+.cartitems{
+    margin: 2rem 1rem;
+    padding: 2.5rem 6rem;
+}
+.cartitems hr{
+    height: 0.3vh;
+    background: #e2e2ee;
+    border: 0;
+}
+.cartitems-format-main, .cartitems-format{
+    display: grid;
+    grid-template-columns: 1fr 2fr 0.5fr 1fr 1fr 1fr;
+    align-items: center;
+    gap: 5rem;
+    padding: 1.2rem 0;
+    color: #454545;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.cartitems-format-main p{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.cartitems-format p{
+    font-size: 0.85rem;
+    font-weight: 300;
+}
+.carticon-product-icon{
+width: 3rem;
+}
+.cartitems-remove-icon{
+    width: 1vw;
+margin: 0rem 2rem;
+cursor: pointer;
+}
+.cartitems-quantity{
+    width: 2vw;
+    padding: 1rem 1.8rem 1rem 1.5rem;
+    /* margin-left: 1.4rem; */
+    border: 2px solid #ebebeb;
+    background: white;
+    /* text-align: center; */
+
+}
+/* .price{
+    margin-left: 0.8rem;
+
+}
+.total{
+    margin-left: 1.4rem;
+} */
+.cartitems-down{
+   display: flex;
+    margin: 5rem 0rem;
+    gap: 10rem;
+}
+.cartitems-total{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-right: 2rem;
+    gap: 1rem;
+
+}
+
+.cartitems-total h1{
+    font-size: 1.5rem;
+}
+.cartitems-total-item{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0rem;
+}
+.cartitems-total-item p{
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+.cartitems-total button{
+    width: 15vw;
+    padding: 1rem;
+    outline: none;
+border: none;
+background: #ff5a5a;
+color: #fff;
+font-size: 0.8rem;
+font-weight: 600;
+cursor: pointer;
+}
+.cartitems-promocode{
+    flex: 1;
+    font-size: 0.7rem;
+    font-weight: 500;
+    /* border: 1px solid blue; */
+}
+.cartitems-promocode p{
+    font-size: 0.85rem;
+    font-weight: 300;
+    color: #555;
+}
+.cartitem-promobox{
+    width: 28vw;
+    margin-top: 1rem;
+    padding-left: 1rem;
+    display: flex;
+    justify-content: space-between;
+    background: #eaeaea;
+}
+.cartitem-promobox input{
+    border: none;
+    outline: none;
+    background: transparent;
+    width: 10vw;
+    /* padding: 1rem; */
+}
+.cartitem-promobox button{
+    width: 10vw;
+    padding: 0.8rem;
+    font-size: 0.8rem;
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1280px) {
+    .cartitems{
+        padding:0rem  1rem;
+    }
+   
+  
+  
+    
+}
+@media screen and (max-width: 800px) {
+    .cartitems{
+        padding: 0rem;
+        
+    }
+    .cartitems-format-main,.cartitems-format{
+        padding: 1rem 0;
+    
+  gap: 1rem;
+        
+    }
+    /* .cartitems-format{
+        display: grid;
+    grid-template-columns: 1fr 2fr 0.5fr 1fr 1fr 1fr;
+        gap: 0rem;
+        padding: 1rem;
+    } */
+   
+    .cartitems-quantity{
+         margin-left: 1rem;
+        padding: 0.5rem  1.2rem 0.5rem 0.8rem; 
+        border: 1px solid black;
+    }
+    .total{
+        padding-left: 0.8rem;
+    }
+    .cartitems-remove-icon{
+width: 2vw;  
+margin-left: 1.2rem;  
+}
+}
+
+@media screen and (max-width: 700px) {
+    .cartitems{
+        padding: 0;
+    }
+    /* .cartitems-format-main{
+        display: flex;
+        padding: 0;
+  gap: 0.7rem;
+        
+    } */
+    /* .cartitems-format-main p{
+padding: 0.2rem;
+font-size: 1rem;
+    } */
+    .cartitems-format {
+        
+padding: 0rem 0.5rem;
+gap: 2rem;
+margin: 0rem;
+ }
+
+
+    
+    .cartitems-quantity{
+        margin-left: 0;
+        padding: 0.3rem 1rem 0.3rem 0.5rem;
+        border: 0.5px solid rgb(109, 109, 109);
+    }
+    .cartitems-remove-icon{
+        width: 3vw;
+        margin: 0rem;
+    }
+    .cartitems-down{
+        display: flex;
+         flex-direction: column;
+gap: 2rem;
+    }
+    .cartitems-total button{
+        width: 40vw;
+      
+    font-size: 0.7rem;
+    
+    }
+    .cartitem-promobox{
+        width: 65vw;
+        background: #bab8b8;
+
+        
+    }
+    .cartitem-promobox input{
+       width: 20vw;
+        
+    }
+    .cartitem-promobox button{
+        width: 20vw;
+       
+    }
+}

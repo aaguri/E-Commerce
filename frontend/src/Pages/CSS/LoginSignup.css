@@ -1,0 +1,103 @@
+.loginsignup{
+    background: #fce3fc;
+    padding: 5rem;
+    height: auto;
+}
+.loginsignup-container{
+    width: 32vw;
+    background: white;
+    margin: auto;
+    padding:  3rem;
+    
+}
+.loginsignup-container h1{
+    padding-bottom: 2rem;
+    font-weight: 600;
+
+}
+.loginsignup-fields{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    
+}
+.loginsignup-fields input{
+    height: 7vh;
+    padding-left: 2rem;
+    border: 1px solid #c9c9c9;
+    outline: none;
+    color: #5c5c5c;
+    font-size: 1rem;
+}
+.loginsignup-container button{
+    width: 32.1vw;
+    padding: 1rem;
+    color: white;
+    background: #ff4141; 
+    margin-top: 2rem;
+    border: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+.loginsignup-login{
+font-size: 0.9rem;
+    font-weight: 400;
+    color: #5c5c5c;
+    margin-top: 1rem;
+}
+.loginsignup-login span{
+    color: #ff4141;
+    font-weight: 600;
+
+}
+.loginsignup-agree{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    gap: 1rem;
+    
+}
+.loginsignup-agree p{
+    color: #5c5c5c;
+    font-size: 0.9rem;
+    font-weight: 400; 
+}
+
+@media screen and (max-width: 1280px) {
+    .loginsignup-container h1{
+   font-size: 1.8rem;
+   text-align: center;
+    }
+    .loginsignup-fields input{
+     font-size: 0.9rem;
+     padding: 0.4rem;
+     text-align: center;
+    }
+    .loginsignup-container button{
+     padding: 0.8rem;
+     font-size: 1rem;
+    }
+    .loginsignup-login, .loginsignup-agree p{
+     font-size: 0.95rem;
+    }
+  }
+  
+@media screen and (max-width: 600px) {
+   .loginsignup-container h1{
+  font-size: 1.5rem;
+  text-align: center;
+   }
+   .loginsignup-fields input{
+    font-size: 0.8rem;
+   }
+   .loginsignup-container button{
+    padding: 0.6rem;
+    font-size: 0.8rem;
+   }
+   .loginsignup-login, .loginsignup-agree p{
+    font-size: 0.8rem;
+   }
+ }

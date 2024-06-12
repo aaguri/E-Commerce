@@ -1,0 +1,33 @@
+.product{
+    padding: 3rem 7rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+@media screen and (max-width: 1280px) {
+
+    .product{
+        padding: 3rem 3.5rem;
+        gap: 2rem;
+        
+    }
+}
+@media screen and (max-width: 1020px) {
+
+    .product{
+        padding: 2.5rem 2rem;
+        gap: 1.5rem;
+    }
+}
+@media screen and (max-width: 800px) {
+
+    .product{
+        padding: 2.5rem 1.8rem;
+    }
+}
+@media screen and (max-width: 600px) {
+
+    .product{
+        padding: 2.5rem 1.5rem;
+    }
+}

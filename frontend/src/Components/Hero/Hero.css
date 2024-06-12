@@ -1,0 +1,168 @@
+.hero{
+    background: linear-gradient(180deg, #fde1ff, #e1ffea22 100%);
+    display: flex;
+     align-items: center;
+     justify-content: center;
+gap: 12rem;
+
+}
+.hero-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    line-height: 1.1;
+    gap: 2rem;
+    padding: 1rem;
+
+}
+.hero-left h2{
+    color: #090909;
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+.hero-left p{
+    color: #171717;
+    font-size: 4.5rem;
+    font-weight: 400;
+    /* border: 1px solid red; */
+}
+.hero-hand-icon{
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+.hero-hand-icon img{
+    width: 5vw;
+}
+.hero-latest-btn{
+    display: flex;
+justify-content: center;
+align-items: center;
+gap:15px;
+width: 15vw;
+padding: 1rem;
+border-radius: 75px;
+background: #ff4141;
+color: white;
+font-size: 1rem;
+font-weight: 500;
+}
+
+.hero-right{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.hero-right img{
+    width: 35vw;
+
+}
+@media screen and (max-width: 1280px) {
+    .hero{
+        gap: 8rem;
+    }
+    .hero-left h2{
+        font-size: 1.5rem;
+      }
+    .hero-collections p,.hero-hand-icon p{
+        font-size: 3rem;
+        }
+     .hero-hand-icon img{
+        width: 8vw;
+    }
+    .hero-right img{
+        width: 35vw;
+    } 
+    .hero-latest-btn{
+        width: 20vw;
+        font-size: 0.9rem;
+        padding: 1.2rem;
+   
+    } 
+}
+
+@media screen and (max-width: 1020px) {
+    .hero{
+      gap:5rem;
+      padding: 1rem;
+  }
+ 
+  .hero-left {
+    
+gap: 1rem;
+padding: 2rem;
+  }
+  .hero-left p{
+      font-size: 2.5rem;
+  }
+  .hero-right img{
+      width: 30vw;
+  } 
+  .hero-left h2{
+      font-size: 1rem;
+  }
+  .hero-latest-btn{
+      
+  width: 20vw;
+  padding: 0.8rem;
+  gap: 0.2rem;
+
+  font-size: 0.9rem;
+  }
+.hero-latest-btn img{
+  width: 2vw;
+} 
+  
+}
+
+@media screen and (max-width: 800px) {
+    .hero{
+      gap:2.8rem;
+      padding: 2rem;
+  }
+ 
+
+.hero-collections p,.hero-hand-icon p{
+font-size: 2rem;
+}
+  .hero-right img{
+    width: 40vw;
+  } 
+  .hero-left h2{
+    font-size: 1.2rem;
+  }
+  .hero-latest-btn{
+      width: 20vw;
+      font-size: 0.8rem;
+ 
+  }
+.hero-latest-btn img{
+    width: 2vw;
+} 
+  
+}
+@media screen and (max-width: 600px) {
+    
+    .hero-collections p,.hero-hand-icon p{
+        font-size: 1.5rem;
+        }
+    .hero-right img{
+        width: 10rem;
+    } 
+    .hero-left h2{
+        font-size: 0.7rem;
+    }
+    .hero-latest-btn{
+        
+    width: 20vw;
+    padding: 0.7rem;
+    gap: 0.2rem;
+ 
+    font-size: 0.5rem;
+    }
+.hero-latest-btn img{
+    width: 2vw;
+} 
+    
+}
